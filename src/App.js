@@ -1,21 +1,15 @@
-import './App.css';
+
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/Header/About';
-import Training from './components/Header/Training';
-import Development from './components/Header/Development';
-import Outsourcing from './components/Header/Outsourcing';
+import Home from './containers/Home';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
      <Router>
+      <Header />
       <Routes>
         <Route path='/' Component={Home}/>
-        <Route  path='/about' Component={About}/>
-        <Route path='/training' Component={Training}/>
-        <Route path='/development' Component={Development}/>
-        <Route path='/outsourcing' Component={Outsourcing}/>
       </Routes>
      </Router>
     </>
