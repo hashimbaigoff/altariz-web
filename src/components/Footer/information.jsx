@@ -1,22 +1,23 @@
-import "./footer.css"
+import "./footer.scss"
 function Information() {
     return (
         <div className="container-footer">
-            <div className="footer-para"> 
-                <p>Altariz solution pvt ltd We dream big 
-                    and explore the digital world with 
+            <div className="footer-content">
+                <h4 className="heading-footer">Info</h4>
+                <p className="footer-paragraph">Altariz solution pvt ltd We dream big
+                    and explore the digital world with
                     a blue print to guide one path forward.</p>
             </div>
             <div>
-                <h2>Address:</h2>
-                <p>Meat Market Street,Madanapalli</p>
-                <p>AnnaMaya District</p>
-                <p>Andhra Pradesh-517325</p>
+                <h4 className="heading-footer">Address:</h4>
+                <p className="footer-paragraph">Meat Market Street,Madanapalli,<br />
+                    Annamaya District,<br />
+                    Andhra Pradesh-517325.</p>
             </div>
             <div>
-                <b>For information Contact</b>
-                <p>
-                    <img src="./images/gmail.png" alt="logo" width="20px" height="20px"/>ALltarizsolutionpvtltd@gmail.com
+                <h4 className="heading-footer">For information Contact:</h4>
+                <p className="footer-paragraph">
+                    <img className="img-logo" src="./images/gmail.png" alt="logo" width="25px" height="25px" />hr@altarizsolutions.com
                 </p>
             </div>
         </div>

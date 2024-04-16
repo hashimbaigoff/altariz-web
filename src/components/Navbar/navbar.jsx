@@ -1,15 +1,19 @@
 import { Link } from "react-router-dom";
-import "./navbar.css"
+import "./navbar.scss";
 function Navbar() {
     return (
         <div className="container-navbar">
-            <p className="info"><b>Call us:  </b>
-                <img src="./images/images.jpeg" alt="logo" width="30px" height="30px" />WhatsApp:123456790</p>
-            <p className="mail"><img src="./images/gmail.png" alt="logo" width="30px" height="30px" />Altarizsolutionpvtltd@gmail.com
+            <p className="info"><span  > &#x1F4DE;</span>Call us: 
+                +91 7842 100 498 </p>
+            <p className="mail"><span>&nbsp; &#x2709;</span> hr@altarizsolutions.com
+            </p>
+            <p>
+            <Link className="google-map" to="https://maps.app.goo.gl/gkoetve3QmooHjsb8">
+              &#x1F4CD;<span>Meat Market Street,Madanapalli.</span></Link>
             </p>
             <p className="login-button">
-                <Link to="#">Login</Link>
-               <Link to="#"> Registration</Link>
+                <Link className="navbar-link" to="#">Login</Link>
+               <Link className="navbar-link" to="#"> Registration</Link>
             </p>
         </div >
     )
