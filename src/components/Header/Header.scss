@@ -1,0 +1,17 @@
+.header{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    .logo {
+        display: flex;
+        .logo-text {
+            margin-top: 14px;
+        }
+        
+    }
+   
+}                           
+
