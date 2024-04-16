@@ -5,7 +5,7 @@ import NavItem from "../NavItem";
 function Header(){
     return(
         <header className="header">
-            <div className="logo"><img src="images/download.png" />
+            <div className="logo"><img src="images/AltarizLogoBlue.jpg" />
             <h3 className="logo-text">Altariz Solutions Pvt Ltd.</h3></div>
             <div className="nav-path">
             <NavItem path="/" label="Home"/>
