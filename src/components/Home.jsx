@@ -7,10 +7,10 @@ import Navbar from "./Navbar/navbar";
 function Home() {
     return (
         <>
+            <Navbar />
             <Header />
-            <WelcomePage/>        
-            <Navbar/>
-        <Footer/>
+            <WelcomePage />
+            <Footer />
         </>
     );
 }

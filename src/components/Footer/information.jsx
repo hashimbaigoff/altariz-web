@@ -2,10 +2,10 @@ import "./footer.css"
 function Information() {
     return (
         <div className="container-footer">
-            <div>
+            <div className="footer-para"> 
                 <p>Altariz solution pvt ltd We dream big 
                     and explore the digital world with 
-                    a blue print to guide one path forward</p>
+                    a blue print to guide one path forward.</p>
             </div>
             <div>
                 <h2>Address:</h2>

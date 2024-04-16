@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./navbar.css"
 function Navbar() {
     return (
@@ -7,8 +8,8 @@ function Navbar() {
             <p className="mail"><img src="./images/gmail.png" alt="logo" width="30px" height="30px" />Altarizsolutionpvtltd@gmail.com
             </p>
             <p className="login-button">
-                <a href="#">Login</a>
-               <a href="#"> Registration</a>
+                <Link to="#">Login</Link>
+               <Link to="#"> Registration</Link>
             </p>
         </div >
     )
