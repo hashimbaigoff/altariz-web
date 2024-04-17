@@ -1,10 +1,13 @@
 import Banner from "../../components/Banner";
-import Header from "../../components/Header/Header";
+import Content from "../../components/Content";
+import Talent from "../../components/talent/talent";
 
 function Home() {
     return (
         <>
             <Banner />
+            <Content/>
+            <Talent/>
         </>
     );
 }

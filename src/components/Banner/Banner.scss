@@ -1,3 +1,14 @@
 .banner-container {
-    padding-top: 140px;
+    padding-top: 120px;
+    display: flex;
+    .banner-text{
+        padding: 4%;
+        .banner-heading{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .banner-paragraph{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+  
 }

@@ -1,0 +1,17 @@
+.talent-content{
+    display: flex;
+    margin: 5%;
+    .talent-text{
+        padding:8% ;
+        .talent-heading{
+            text-align: center;
+        }
+        .talent-paragraph{
+            text-align: center;
+        }
+    }
+    .talent-img{
+        border: 5px solid black;
+        border-radius: 5%;
+    }
+}
