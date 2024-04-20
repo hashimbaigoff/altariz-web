@@ -5,6 +5,8 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/navbar';
 import Footer from './components/Footer/footer';
 
+
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' Component={Home}/>
+       
       </Routes>
       <Footer/>
      </Router>

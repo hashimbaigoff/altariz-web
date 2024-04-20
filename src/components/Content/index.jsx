@@ -4,7 +4,7 @@ function Content(){
     return(
         <div className="content-head">
             <div className="content-image">
-            <img src="https://i.ytimg.com/vi/n9G4p4o-hfs/maxresdefault.jpg" alt="What's on your mind, if you will allow the overstatement | Picture Quotes" class=" nofocus" tabindex="0" aria-label="What's on your mind, if you will allow the overstatement | Picture Quotes" role="button" data-bm="6" width='300px' height='300px'/>
+            <img src="https://i.ytimg.com/vi/n9G4p4o-hfs/maxresdefault.jpg" alt="What's on your mind, if you will allow the overstatement | Picture Quotes" className=" nofocus" tabIndex="0" aria-label="What's on your mind, if you will allow the overstatement | Picture Quotes" role="button" data-bm="6" width='300px' height='300px'/>
                 {/* <img src="/images/mind.jpg" width='500px' height='300px'></img> */}
             </div>
             <div className="content-text">
