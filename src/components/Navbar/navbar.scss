@@ -1,50 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-    // position: relative;
-}
+// * {
+//     margin: 0;
+//     padding: 0;
+//     // position: relative;
+// }
 
 .container-navbar {
-    display: flex;
-    background-color: rgb(1, 1, 0);
-    justify-content: space-between;
-    position: fixed;
     width: 100%;
+    display: flex;
+    background-color: rgb(7, 1, 45);
+    justify-content: space-between;
     color: white;
     .info {
         display: flex;
         align-items: center;
         font-size: bold;
-            .mail {
-                display: flex;
-                align-items: center;
+        margin-left: 4%;
+    }
+    .mail{
+        display: flex;
+        align-items: center;
 
-                .login-button {
-                    display: flex;
-                    height: 30px;
-                    gap: 10px;
-
-                    
-                    width: 100px;
-                    margin-right: 30px;
-                    align-items: center;
-                   
-
-                }
-            }
+    }
+    .google-map{
+        text-decoration: none;
+        color: white;
+    }
+    .login-button {
+        display: flex;
+        height: 30px;
+        gap: 10px;
+        width: 100px; 
+        margin-right: 4%;
+        align-items: center;
+        .navbar-link {
+            text-decoration: none;
+            padding-right: 30px;
+            color: white;
         }
+    }   
         }
 
-.navbar-link {
-    text-decoration: none;
-    padding-right: 30px;
-    color: skyblue;
 
-}
-.google-map{
-    text-decoration: none;
-    color: white;
-}
 
 @media (max-width: 330px) {
 

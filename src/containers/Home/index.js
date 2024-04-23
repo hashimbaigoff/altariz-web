@@ -4,11 +4,11 @@ import Talent from "../../components/talent/talent";
 
 function Home() {
     return (
-        <>
-            <Banner />
-            <Content/>
-            <Talent/>
-        </>
+        <div className="container-home">
+        <Banner />
+        <Content />
+        <Talent />
+    </div>
     );
 }
 

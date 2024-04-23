@@ -11,7 +11,6 @@ function Content(){
             <h3 className="content-heading">What’s on your mind?</h3>
             <p className="content-paragraph">We are here to help you! Tell us what you’re looking for & we’ll get you connected to the right path of your future to the right place.</p>
             </div>
-            
         </div>
     )
 }

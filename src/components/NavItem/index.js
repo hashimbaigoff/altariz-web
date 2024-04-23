@@ -4,7 +4,7 @@ import './NavItem.scss';
 
 const NavItem = ({path, label})=>{
     return(
-        <Link to={path} className="nav-links">{label}</Link>
+       <p><Link className="nav-links" to={path} >{label}</Link></p> 
     )
 }
 export default NavItem;
