@@ -15,7 +15,7 @@ function Banner() {
                 <b> “Dare to dream big; your code can reshape the world.”</b>
             </div>
             <div className="banner-video">
-            <iframe width="550" height="300" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
         </div>
     )

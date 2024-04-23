@@ -1,6 +1,7 @@
 .banner-container {
     padding-top: 120px;
     display: flex;
+    width: 95%;
     .banner-text{
         padding: 4%;
         .banner-heading{
@@ -9,6 +10,10 @@
         .banner-paragraph{
             font-family: 'Times New Roman', Times, serif;
         }
+        
+    }
+    .banner-video{
+        margin-top: 3%;
     }
   
 }
