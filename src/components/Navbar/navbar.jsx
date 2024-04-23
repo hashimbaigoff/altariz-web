@@ -12,8 +12,7 @@ function Navbar() {
               &#x1F4CD;<span>Meat Market Street,Madanapalli.</span></Link>
             </p>
             <p className="login-button">
-                <Link className="navbar-link" to="#">Login</Link>
-               <Link className="navbar-link" to="#"> Registration</Link>
+                <Link className="navbar-link" to="./login&register">Login/Regster</Link>
             </p>
         </div >
     )
