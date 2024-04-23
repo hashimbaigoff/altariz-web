@@ -8,7 +8,7 @@ function Talent(){
                 <p className="talent-paragraph">Altariz solutions Pvt Ltd. Changes lives, Organizations and nations through digital upskilling, Developing the edge you need to conquer what’s next.</p>
             </div>
             <div className="talent-img">
-                <img src="/images/talent.jpg" width='300px' height='282px' ></img>
+                <img src="/images/talent.jpg" alt="img" width='300px' height='282px' ></img>
             </div>
         </div>
     )

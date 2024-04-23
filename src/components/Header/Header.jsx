@@ -8,10 +8,8 @@ function Header() {
     <div className="header-nav">
        <Navbar/>
         <header className="header">
-            <div className="logo">
-                <img src="images/AltarizLogoBlue.jpg" />
-                <h3 className="logo-text">Altariz Solutions Pvt Ltd.</h3>
-            </div>
+            <div className="logo"><img src="images/AltarizLogoBlue.jpg" alt="img" />
+            <h3 className="logo-text">Altariz Solutions Pvt Ltd.</h3></div>
             <div className="nav-path">
                 <NavItem path="/" label="Home" />
                 <NavItem path="/about" label="About Us" />
